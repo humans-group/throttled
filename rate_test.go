@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/humans-group/throttled/v2"
+	"github.com/humans-group/throttled/v2/store/memstore"
 	"github.com/stretchr/testify/assert"
-	"github.com/throttled/throttled/v2"
-	"github.com/throttled/throttled/v2/store/memstore"
 )
 
 const deniedStatus = 429

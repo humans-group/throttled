@@ -16,7 +16,7 @@ package's root). Import Throttled:
 
 ``` go
 import (
-	"github.com/throttled/throttled/v2"
+	"github.com/humans-group/throttled/v2"
 )
 ```
 
@@ -56,8 +56,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/throttled/throttled/v2"
-	"github.com/throttled/throttled/v2/store/memstore"
+	"github.com/humans-group/throttled/v2"
+	"github.com/humans-group/throttled/v2/store/memstore"
 )
 
 func myHandlerFunc(w http.ResponseWriter, r *http.Request) {

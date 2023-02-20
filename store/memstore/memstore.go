@@ -1,11 +1,12 @@
 // Package memstore offers an in-memory store implementation for throttled.
-package memstore // import "github.com/throttled/throttled/v2/store/memstore"
+package memstore // import "github.com/humans-group/throttled/v2/store/memstore"
 
 import (
-	"github.com/throttled/throttled/v2"
 	"sync"
 	"sync/atomic"
 	"time"
+
+	"github.com/humans-group/throttled/v2"
 
 	lru "github.com/hashicorp/golang-lru"
 )

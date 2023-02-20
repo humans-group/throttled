@@ -6,8 +6,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/throttled/throttled/v2"
-	"github.com/throttled/throttled/v2/store/memstore"
+	"github.com/humans-group/throttled/v2"
+	"github.com/humans-group/throttled/v2/store/memstore"
 )
 
 var myHandler = http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {

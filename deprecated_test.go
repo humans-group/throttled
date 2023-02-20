@@ -5,8 +5,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/throttled/throttled/v2"
-	"github.com/throttled/throttled/v2/store"
+	"github.com/humans-group/throttled/v2"
+	"github.com/humans-group/throttled/v2/store"
 )
 
 // Ensure that the current implementation remains compatible with the

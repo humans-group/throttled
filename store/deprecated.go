@@ -1,11 +1,11 @@
 // Package store contains deprecated aliases for subpackages
-package store // import "github.com/throttled/throttled/v2/store"
+package store // import "github.com/humans-group/throttled/v2/store"
 
 import (
 	"github.com/gomodule/redigo/redis"
-	"github.com/throttled/throttled/v2"
-	"github.com/throttled/throttled/v2/store/memstore"
-	"github.com/throttled/throttled/v2/store/redigostore"
+	"github.com/humans-group/throttled/v2"
+	"github.com/humans-group/throttled/v2/store/memstore"
+	"github.com/humans-group/throttled/v2/store/redigostore"
 )
 
 // NewMemStore initializes a new memory-based store.

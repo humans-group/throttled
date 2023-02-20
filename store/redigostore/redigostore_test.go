@@ -1,14 +1,15 @@
 package redigostore_test
 
 import (
-	"github.com/throttled/throttled/v2"
 	"testing"
 	"time"
 
+	"github.com/humans-group/throttled/v2"
+
 	"github.com/gomodule/redigo/redis"
 
-	"github.com/throttled/throttled/v2/store/redigostore"
-	"github.com/throttled/throttled/v2/store/storetest"
+	"github.com/humans-group/throttled/v2/store/redigostore"
+	"github.com/humans-group/throttled/v2/store/storetest"
 )
 
 const (

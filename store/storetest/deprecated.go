@@ -1,8 +1,9 @@
 package storetest
 
 import (
-	"github.com/throttled/throttled/v2"
 	"testing"
+
+	"github.com/humans-group/throttled/v2"
 )
 
 // TestGCRAStore provides an adapter for TestGCRAStoreCtx
