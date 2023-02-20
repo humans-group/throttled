@@ -1,4 +1,4 @@
-module github.com/throttled/throttled/v2
+module github.com/humans-group/throttled/v2
 
 go 1.13
 
